@@ -10,7 +10,7 @@ import UIKit
 
 class MainCollectionViewCell: UICollectionViewCell {
     public let label = UILabel(frame: .zero)
-    private var isAvailable = false
+    public var isAvailable = false
     
     override init(frame: CGRect) {
         super.init(frame: .zero)

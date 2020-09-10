@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A117FDD25092A6200B1AD65 /* EndGameStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A117FDC25092A6200B1AD65 /* EndGameStackView.swift */; };
 		2A2E9D5925075F220054DE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9D5825075F220054DE03 /* AppDelegate.swift */; };
 		2A2E9D5B25075F220054DE03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9D5A25075F220054DE03 /* SceneDelegate.swift */; };
 		2A2E9D5D25075F220054DE03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9D5C25075F220054DE03 /* ViewController.swift */; };
@@ -15,9 +16,11 @@
 		2A2E9D6525075F230054DE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2E9D6325075F230054DE03 /* LaunchScreen.storyboard */; };
 		2A2E9D6E25075F760054DE03 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9D6D25075F760054DE03 /* MainCollectionViewController.swift */; };
 		2A2E9D712507603E0054DE03 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9D702507603E0054DE03 /* MainCollectionViewCell.swift */; };
+		2A5B209D250A7AA6007F1BC1 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B209C250A7AA6007F1BC1 /* Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A117FDC25092A6200B1AD65 /* EndGameStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameStackView.swift; sourceTree = "<group>"; };
 		2A2E9D5525075F220054DE03 /* Fifo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fifo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2E9D5825075F220054DE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A2E9D5A25075F220054DE03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		2A2E9D6625075F230054DE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A2E9D6D25075F760054DE03 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
 		2A2E9D702507603E0054DE03 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		2A5B209C250A7AA6007F1BC1 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		2A2E9D5725075F220054DE03 /* Fifo */ = {
 			isa = PBXGroup;
 			children = (
+				2A437DFA2509E43600730062 /* utils */,
 				2A2E9D6F2507602D0054DE03 /* View */,
 				2A2E9D6C25075F630054DE03 /* controllers */,
 				2A2E9D5825075F220054DE03 /* AppDelegate.swift */,
@@ -85,8 +90,17 @@
 			isa = PBXGroup;
 			children = (
 				2A2E9D702507603E0054DE03 /* MainCollectionViewCell.swift */,
+				2A117FDC25092A6200B1AD65 /* EndGameStackView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2A437DFA2509E43600730062 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B209C250A7AA6007F1BC1 /* Animation.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +176,9 @@
 			files = (
 				2A2E9D5D25075F220054DE03 /* ViewController.swift in Sources */,
 				2A2E9D6E25075F760054DE03 /* MainCollectionViewController.swift in Sources */,
+				2A5B209D250A7AA6007F1BC1 /* Animation.swift in Sources */,
 				2A2E9D712507603E0054DE03 /* MainCollectionViewCell.swift in Sources */,
+				2A117FDD25092A6200B1AD65 /* EndGameStackView.swift in Sources */,
 				2A2E9D5925075F220054DE03 /* AppDelegate.swift in Sources */,
 				2A2E9D5B25075F220054DE03 /* SceneDelegate.swift in Sources */,
 			);
